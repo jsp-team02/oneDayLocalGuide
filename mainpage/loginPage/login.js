@@ -1,9 +1,12 @@
+/* login header 메인 페이지로 이동 */
 const logo = document.querySelector("#logo");
 
 logo.addEventListener("click", function(){
     location.href = "../mainpage/main.html";
 });
+/* ---------------header end--------------- */
 
+/* --------------- login 부분 id, pw 부분 입력 했을 때 다음 버튼 활성화 --------------- */
 const inputEmail = document.querySelector(".input-email");
 const p = document.querySelector("p");
 
@@ -16,6 +19,7 @@ const nextBtn = document.querySelector("#next-button");
 var check1 = false;
 var check2 = false;
 
+/* 다음 버튼 활성화 */
 body.addEventListener("click", function(){
     if(check1 && check2){
         nextBtn.style.backgroundColor = "black";
@@ -35,7 +39,7 @@ body.addEventListener("input", function(){
     }
 });
 
-
+/* id 부분 입력 안했을 때 경고 p 태그 보이게 하고 입력 했을 땐 안보이게 */
 inputEmail.addEventListener("click",function(){
     if(inputEmail.value){
         p.style.visibility = "hidden";
@@ -54,6 +58,7 @@ inputEmail.addEventListener("input",function(){
     }
 });
 
+/* pw 부분 입력 안했을 때 경고 p 태그 보이게 하고 입력 했을 땐 안보이게 */
 inputPw.addEventListener("click", function(){
     if(inputPw.value){
         p2.style.visibility = "hidden";
@@ -72,6 +77,7 @@ inputPw.addEventListener("input", function(){
     }
 })
 
+/* 이메일로 시작하기 옆에 화살표 눌렀을 때 화살표 모양 바뀌고 id, pw 입력창 보이기 or 안보이게 하기 */
 const button = document.querySelector("#hwasal");
 const change = document.querySelector("#email-form");
 const forgotEmail = document.querySelector("#forgot-email-box");
@@ -89,16 +95,10 @@ button.addEventListener("click",function(){
     }
     count++;
 })
-
-    
-
-// button.addEventListener("click",function(){
-//     open.style.visibility = "visible";
-// })
+/* --------------- login end --------------- */
 
 
-
-/* -------------비밀번호 표시--------------- */
+/* -------------눈 모양 눌렀을 때 비밀번호 표시, 반대로 다시 눌렀을 때 비밀번호 안보이게 하기------------- */
 const eye = document.querySelector("#eye");
 const password = document.querySelector(".input-pw");
 var clickEye = 0;

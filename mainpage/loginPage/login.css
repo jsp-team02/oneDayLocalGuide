@@ -1,4 +1,5 @@
 @import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css);
+/* 전체 화면 */
 body{
     margin: 0 auto;
     width: 100%;
@@ -9,6 +10,7 @@ body{
     /* background-image: url(./img/baegyung02.png); */
 }
 
+/* ---------------header--------------- */
 #login-header{
     display: flex;
     height: 68px;
@@ -50,7 +52,9 @@ body{
     font-style: normal;
     font-stretch: normal;
 }
+/* ---------------header end--------------- */
 
+/* ---------------login--------------- */
 #login-content{
     width: 100%;
     height: 1000px;
@@ -475,7 +479,7 @@ input::placeholder{
     font-family: 'Spoqa Han Sans Neo', 'sans-serif';
     position: relative;
 }
-
+/* ---------------login end--------------- */
 
 
 /* --------------------footer-------------------- */
@@ -792,3 +796,5 @@ span.bold{
     font-weight: 700;
     line-height: 24px;
 }
+
+/* --------------- footer end --------------- */

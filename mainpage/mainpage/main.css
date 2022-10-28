@@ -1,6 +1,7 @@
 @charset "utf-8";
 @import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css);
 
+/* 전체 화면  */
 body{
     margin: 0 auto;
     /* clear: both; */
@@ -11,6 +12,7 @@ body{
     font-family: 'Spoqa Han Sans Neo', 'sans-serif';
 }
 
+/* 헤더 */
 header{
     display: flex;
     align-items: center;
@@ -150,6 +152,7 @@ div#right{
     width: 55px;
     margin-right: 40px;
 }
+/* 헤더 end */
 
 main{
     display: block;
@@ -227,7 +230,7 @@ div.btns .btn {
 
 /* --------------banner end------------- */
 
-
+/* area */
 #content-category{
     position: relative;
     display: block;
@@ -272,8 +275,9 @@ div.btns .btn {
     cursor: pointer;
     vertical-align: baseline;
 }
+/* area end */
 
-/* item start */
+/* product start */
 #content-product{
     display: flex;
     justify-content: center;
@@ -381,6 +385,18 @@ div.btns .btn {
     margin-left: 0;
 }
 
+.item6{
+
+}
+
+.item7{
+
+}
+
+.item8{
+
+}
+
 .product-image{
     width: 250px;
     height: 250px;
@@ -443,8 +459,8 @@ product-info{
     margin-top: 100px;
 }
 
+/* product end*/
 
-/* item end*/
 /* --------------------footer-------------------- */
 
 footer{
