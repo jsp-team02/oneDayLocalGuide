@@ -178,7 +178,50 @@ header{
     line-height: 30px;
 }
 
+.user-info-title {
+    text-align: left;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+
 .first-content {
+    display: flex;
+    justify-content: space-between;
+    color: #838383;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.user-info-first-column {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    line-height: 70px;
+}
+
+.user-info-second-column {
+    display: flex;
+    line-height: 70px;
+    flex-direction: column;
+    text-align: left;
+    color: black;
+}
+
+.user-info-second-column input[type='password'] {
+    border-style: none;
+}
+
+.user-info-third-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.user-info-third-column a {
+    text-decoration: none;
+    color: #838383;
+}
+/* .first-content {
     padding-top: 28px;
     padding-bottom: 60px;
     padding-left: 30px;
@@ -204,7 +247,7 @@ header{
 
 .edit-botton {
     cursor: pointer;
-}
+} */
 
 .second-content {
     margin: 48px 20px 0;
