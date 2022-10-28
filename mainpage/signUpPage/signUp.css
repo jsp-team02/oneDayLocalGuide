@@ -1,4 +1,5 @@
 @import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css);
+/* 전체 화면 */
 body{
     margin: 0 auto;
     width: 100%;
@@ -9,6 +10,7 @@ body{
     /* background-image: url(./img/baegyung02.png); */
 }
 
+/* header 로고 */
 #login-header{
     display: flex;
     height: 68px;
@@ -50,7 +52,9 @@ body{
     font-style: normal;
     font-stretch: normal;
 }
+/* ------------ header end ------------ */
 
+/* 회원가입 부분 signUp */
 #login-content{
     width: 100%;
     height: 1400px;
@@ -405,130 +409,8 @@ a{
     cursor: pointer;
 }
 
+/*  ------------sign up end------------ */
 
-/* #kakao-login{
-    font-weight: 400;
-    font-size: 18px;
-    letter-spacing: -.04em;
-    line-height: 100%;
-    border-radius: 8px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #ffea00;
-    height: 60px;
-    width: 400px;
-    max-width: 100%;
-    color: #1c1c1c;
-    position: relative;
-    cursor: pointer;
-    padding: 0;
-    box-sizing: border-box;
-    border: none;
-    font-style: normal;
-    font-stretch: normal;
-    font-family: 'Spoqa Han Sans Neo', 'sans-serif';
-    appearance: auto;
-    writing-mode: horizontal-tb;
-    text-rendering: auto;
-    word-spacing: normal;
-    text-transform: none;
-    text-indent: 0px;
-    text-shadow: none;
-    text-align: center;
-
-}
-
-#kakao-logo{
-    position: relative;
-    width: 36px;
-    height: 36px;
-    margin: 0;
-    padding: 0;
-    border: 0;
-    vertical-align: baseline;
-    left: -80px;
-}
-
-#start-with-kakao{
-    position: relative;
-    margin: 0;
-    padding: 0;
-    border: 0;
-    vertical-align: baseline;
-    letter-spacing: -.04em;
-    color: #1c1c1c;
-    left: -10px;
-}
-
-#email-box{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0;
-    border: 0;
-    padding: 0;
-    padding-top: 20px;
-    width: 400px;
-    height: 28px;
-}
-
-#email-wrapper{
-    padding-top: 8px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0;
-    padding: 0;
-    border: 0;
-    vertical-align: baseline;
-    width: 400px;
-    height: 28px;
-}
-
-#start-with-email{
-    padding-left: 4px;
-    font-size: 16px;
-    font-weight: 300;
-    letter-spacing: -.04em;
-    line-height: 24px;
-    color: #838383;
-    margin: 0;
-    padding: 0;
-    border: 0;
-    display: block;
-    cursor: pointer;
-    width: 115.552px;
-    height: 24px;
-}
-
-#hwasal{
-    width: 28px;
-    height: 28px;
-    margin: 0;
-    padding: 0;
-    border: 0;
-    cursor: pointer;
-    /* background-image: url(/oneDayLocalGuide/mainpage/loginPage/img/hwasal.svg); */
-    /* background-image: url(./img/hwasal.svg);
-} */
-
-#left-bottom-info{
-    position: absolute;
-    width: 100%;
-    left: 0%;
-    font-size: 16px;
-    letter-spacing: -.04em;
-    line-height: 24px;
-    color: #1c1c1c;
-    top: 710px;
-    word-break: keep-all;
-    text-align: center;
-    margin: 0;
-    padding: 0;
-    border: 0;
-    display: block;
-}
 
 
 

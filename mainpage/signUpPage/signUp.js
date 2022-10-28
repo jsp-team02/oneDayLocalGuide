@@ -1,6 +1,6 @@
 HTMLCollection.prototype.forEach = Array.prototype.forEach;
 
-/* -------------비밀번호 표시--------------- */
+/* -------------눈 모양 눌렀을 때 비밀번호 표시와 눈 모양 변경, 다시 눌렀을 때 돌아오기--------------- */
 const eye = document.querySelector("#eye");
 const password = document.querySelector(".input-pw");
 var clickEye = 0;
@@ -17,11 +17,15 @@ eye.addEventListener("click", function(){
 });
 /* ---------------------------------------- */
 
+/* 로고 눌렀을 때 메인페이지로 이동 */
 const logo = document.querySelector("#logo");
 
 logo.addEventListener("click", function(){
     location.href = "../mainpage/main.html";
 });
+/* ---------------------------------------- */
+
+/* 모든 input 태그 입력, 성별 선택 했을 때 가입완료 버튼 활성화, 하나라도 입력 안했을 때 비활성화 */
 
     const inputId = document.querySelector(".input-id");
     const pId = document.querySelector(".warning-id");
@@ -182,5 +186,5 @@ logo.addEventListener("click", function(){
         }
     })
 
-    
+    /* -------------------------------------------------------- */
 

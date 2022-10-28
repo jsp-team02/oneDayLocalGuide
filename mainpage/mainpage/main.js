@@ -1,3 +1,4 @@
+/* header 로고, 로그인, 회원가입 페이지 이동*/
 const logo = document.querySelector("#logo");
 const login = document.querySelector("#login");
 const member = document.querySelector("#member");
@@ -13,9 +14,10 @@ login.addEventListener("click", function(){
 member.addEventListener("click", function(){
     location.href = "../signUpPage/signUp.html";
 })
+/* --------------- header end ---------------*/
 
 
-/* ------------------------------banner-------------------------------*/
+/* ------------------------------banner------------------------------*/
 const div = document.querySelector("div.banner");
     const arrows = document.querySelectorAll("div.arrow");
     const btns = document.querySelectorAll(".btn");
